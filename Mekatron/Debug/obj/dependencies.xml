@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/ID:\Teknik\Programming\STM\Mekatron\cmsis /ID:\Teknik\Programming /ID:\Teknik\Programming\STM\Mekatron /ID:\Teknik\Programming\STM\Mekatron\cmsis_lib\include /ID:\Teknik\Programming\STM\Mekatron\cmsis_lib /ID:\Teknik\Programming\STM /ID:\Teknik\Programming\STM\Mekatron\cmsis_boot">
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h" lastModified="154865f0aa6">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_usart.c" lastModified="154865f1975">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4.h" lastModified="154865f1140">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+         <include file="..\..\..\cmsis\core_cm4_simd.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="154865f1538">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_misc.h" lastModified="154a8f48153">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f30x.h" lastModified="154865f1130">
+         <include file="..\..\..\cmsis\core_cm4.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\conf.h" lastModified="1554f5c4f4c">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_usart.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h" lastModified="154865f0a9b">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\conf.c" lastModified="1554ed09196">
+         <include file="..\..\..\conf.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_tim.c" lastModified="154865f0a93">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_tim.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_misc.c" lastModified="154a8f4815d">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_tim.h" lastModified="154865f09f9">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x_temp.c" lastModified="154865f0d50">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="154865f1533">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f30x.S" lastModified="154865f0d42">
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_gpio.c" lastModified="154865f0aa0">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_gpio.h"/>
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_lib\source\stm32f30x_rcc.c" lastModified="154865f0c11">
+         <include file="..\..\..\cmsis_lib\include\stm32f30x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm4_simd.h" lastModified="154865f152b">
+      </source>
+      <source file="..\..\..\cmsis_lib\include\stm32f30x_usart.h" lastModified="154865f194b">
+         <include file="..\..\..\cmsis_boot\stm32f30x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f30x.h" lastModified="154865f0d4b">
+      </source>
+   </includePath>
+</dependencies>

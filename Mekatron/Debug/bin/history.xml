@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=Mekatron.map -O0 --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\Mekatron -TC:\CooCox\CoIDE\configuration\ProgramData\Mekatron/arm-gcc-link.ld -g">
+      <target file="Mekatron.elf" lastModified="15556ab5459">
+         <source file="..\obj\stm32f30x_rcc.o" lastModified="1554ef0b38e"/>
+         <source file="..\obj\conf.o" lastModified="1554f5d4b40"/>
+         <source file="..\obj\stm32f30x_gpio.o" lastModified="1554ef0b4a5"/>
+         <source file="..\obj\main.o" lastModified="15556ab51a1"/>
+         <source file="..\obj\system_stm32f30x_temp.o" lastModified="1554ef0b6ad"/>
+         <source file="..\obj\stm32f30x_misc.o" lastModified="1554ef0b71e"/>
+         <source file="..\obj\stm32f30x_tim.o" lastModified="1554ef0b863"/>
+         <source file="..\obj\startup_stm32f30x.o" lastModified="1554ef0b8c1"/>
+         <source file="..\obj\stm32f30x_usart.o" lastModified="1554ef0b996"/>
+      </target>
+   </processor>
+</history>
